@@ -25,9 +25,9 @@
 
 .luz {
     content: "";
-    width: 90%;
+    width: 110%;
     height: calc(100%/4);
-    border-radius: 50%;
+    border-radius: 100%;
     background-color: rgb(39, 39, 39);
 }
 .cor-vermelha{

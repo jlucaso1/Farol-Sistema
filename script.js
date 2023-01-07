@@ -7,5 +7,5 @@ var btnAmarelo = document.getElementById("btnAmarelo")
 var btnVerde = document.getElementById("btnVerde")
 
 btnVermelho.addEventListener("click", function ligarFarol() {
-    farolVermelho.classList.add("cor-vermelha")
+    farolVermelho.classList.toggle("cor-vermelha")
 }) 
