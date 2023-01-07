@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Javascript</title>
+    <script>
+        var farolVermelho = document.getElementById("farolVermelho")
+        var farolAmarelo = document.getElementById("farolAmarelo")
+        var farolVerde = document.getElementById("farolVerde")
+
+        var btnVermelho = document.getElementById("btnVermelho")
+        var btnAmarelo = document.getElementById("btnAmarelo")
+        var btnVerde = document.getElementById("btnVerde")
+
+        btnVermelho.addEventListener("click", function ligarFarol() {
+            farolVermelho.classList.add("cor-vermelha")
+        }) 
+    </script>
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="semaforo">
+            <div id="farolVermelho" class="luz"></div>
+            <div id="farolAmarelo" class="luz"></div>
+            <div id="farolVerde" class="luz"></div>
+            <div class="botoes">
+                <button id="btnVermelho" class="botao cor-vermelha">Ligar</button>
+                <button id="btnAmarelo" class="botao cor-amarela">Ligar</button>
+                <button id="btnVerde" class="botao cor-verde">Ligar</button>
+
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
