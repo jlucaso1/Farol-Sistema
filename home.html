@@ -12,15 +12,27 @@
 
 <body>
     <div class="container">
-
         <div class="semaforo">
             <div id="farolVermelho" class="luz"></div>
             <div id="farolAmarelo" class="luz"></div>
             <div id="farolVerde" class="luz"></div>
             <div class="botoes">
-                <button id="btnVermelho" class="botao cor-vermelha">Ligar</button>
-                <button id="btnAmarelo" class="botao cor-amarela">Ligar</button>
-                <button id="btnVerde" class="botao cor-verde">Ligar</button>
+                <button id="btnVermelho" class="botao cor-vermelha" onclick="semaforo1.ligarLuz('vermelha')">Ligar</button>
+                <button id="btnAmarelo" class="botao cor-amarela" onclick="semaforo1.ligarLuz('amarela')">Ligar</button>
+                <button id="btnVerde" class="botao cor-verde" onclick="semaforo1.ligarLuz('verde')">Ligar</button>
+
+            </div>
+
+
+        </div>
+        <div class="semaforo">
+            <div id="farolVermelho2" class="luz"></div>
+            <div id="farolAmarelo2" class="luz"></div>
+            <div id="farolVerde2" class="luz"></div>
+            <div class="botoes">
+                <button id="btnVermelho" class="botao cor-vermelha" onclick="semaforo2.ligarLuz('vermelha')">Ligar</button>
+                <button id="btnAmarelo" class="botao cor-amarela" onclick="semaforo2.ligarLuz('amarela')">Ligar</button>
+                <button id="btnVerde" class="botao cor-verde" onclick="semaforo2.ligarLuz('verde')">Ligar</button>
 
             </div>
 
